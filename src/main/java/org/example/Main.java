@@ -1,7 +1,12 @@
 package org.example;
 
+import static java.lang.Integer.sum;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("vhd12345");
+        int a = 2;
+        int b = 3;
+        int c = sum(a,b);
+        System.out.println(c);
     }
 }
